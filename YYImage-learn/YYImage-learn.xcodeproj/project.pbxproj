@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDB20CD91E5C17FB00B33FB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB20CD81E5C17FB00B33FB7 /* main.m */; };
+		DDB20CDC1E5C17FB00B33FB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB20CDB1E5C17FB00B33FB7 /* AppDelegate.m */; };
+		DDB20CDF1E5C17FB00B33FB7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB20CDE1E5C17FB00B33FB7 /* ViewController.m */; };
+		DDB20CE21E5C17FB00B33FB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDB20CE01E5C17FB00B33FB7 /* Main.storyboard */; };
+		DDB20CE41E5C17FB00B33FB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDB20CE31E5C17FB00B33FB7 /* Assets.xcassets */; };
+		DDB20CE71E5C17FB00B33FB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDB20CE51E5C17FB00B33FB7 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DDB20CD41E5C17FB00B33FB7 /* YYImage-learn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YYImage-learn.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDB20CD81E5C17FB00B33FB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDB20CDA1E5C17FB00B33FB7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDB20CDB1E5C17FB00B33FB7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DDB20CDD1E5C17FB00B33FB7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DDB20CDE1E5C17FB00B33FB7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DDB20CE11E5C17FB00B33FB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDB20CE31E5C17FB00B33FB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDB20CE61E5C17FB00B33FB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDB20CE81E5C17FB00B33FB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDB20CD11E5C17FB00B33FB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDB20CCB1E5C17FB00B33FB7 = {
+			isa = PBXGroup;
+			children = (
+				DDB20CD61E5C17FB00B33FB7 /* YYImage-learn */,
+				DDB20CD51E5C17FB00B33FB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDB20CD51E5C17FB00B33FB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDB20CD41E5C17FB00B33FB7 /* YYImage-learn.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDB20CD61E5C17FB00B33FB7 /* YYImage-learn */ = {
+			isa = PBXGroup;
+			children = (
+				DDB20CDA1E5C17FB00B33FB7 /* AppDelegate.h */,
+				DDB20CDB1E5C17FB00B33FB7 /* AppDelegate.m */,
+				DDB20CDD1E5C17FB00B33FB7 /* ViewController.h */,
+				DDB20CDE1E5C17FB00B33FB7 /* ViewController.m */,
+				DDB20CE01E5C17FB00B33FB7 /* Main.storyboard */,
+				DDB20CE31E5C17FB00B33FB7 /* Assets.xcassets */,
+				DDB20CE51E5C17FB00B33FB7 /* LaunchScreen.storyboard */,
+				DDB20CE81E5C17FB00B33FB7 /* Info.plist */,
+				DDB20CD71E5C17FB00B33FB7 /* Supporting Files */,
+			);
+			path = "YYImage-learn";
+			sourceTree = "<group>";
+		};
+		DDB20CD71E5C17FB00B33FB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDB20CD81E5C17FB00B33FB7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDB20CD31E5C17FB00B33FB7 /* YYImage-learn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDB20CEB1E5C17FB00B33FB7 /* Build configuration list for PBXNativeTarget "YYImage-learn" */;
+			buildPhases = (
+				DDB20CD01E5C17FB00B33FB7 /* Sources */,
+				DDB20CD11E5C17FB00B33FB7 /* Frameworks */,
+				DDB20CD21E5C17FB00B33FB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YYImage-learn";
+			productName = "YYImage-learn";
+			productReference = DDB20CD41E5C17FB00B33FB7 /* YYImage-learn.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDB20CCC1E5C17FB00B33FB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = HJR;
+				TargetAttributes = {
+					DDB20CD31E5C17FB00B33FB7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DDB20CCF1E5C17FB00B33FB7 /* Build configuration list for PBXProject "YYImage-learn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDB20CCB1E5C17FB00B33FB7;
+			productRefGroup = DDB20CD51E5C17FB00B33FB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDB20CD31E5C17FB00B33FB7 /* YYImage-learn */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDB20CD21E5C17FB00B33FB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB20CE71E5C17FB00B33FB7 /* LaunchScreen.storyboard in Resources */,
+				DDB20CE41E5C17FB00B33FB7 /* Assets.xcassets in Resources */,
+				DDB20CE21E5C17FB00B33FB7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDB20CD01E5C17FB00B33FB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB20CDF1E5C17FB00B33FB7 /* ViewController.m in Sources */,
+				DDB20CDC1E5C17FB00B33FB7 /* AppDelegate.m in Sources */,
+				DDB20CD91E5C17FB00B33FB7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DDB20CE01E5C17FB00B33FB7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDB20CE11E5C17FB00B33FB7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDB20CE51E5C17FB00B33FB7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDB20CE61E5C17FB00B33FB7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDB20CE91E5C17FB00B33FB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDB20CEA1E5C17FB00B33FB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDB20CEC1E5C17FB00B33FB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "YYImage-learn/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HJR.YYImage-learn";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DDB20CED1E5C17FB00B33FB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "YYImage-learn/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HJR.YYImage-learn";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDB20CCF1E5C17FB00B33FB7 /* Build configuration list for PBXProject "YYImage-learn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB20CE91E5C17FB00B33FB7 /* Debug */,
+				DDB20CEA1E5C17FB00B33FB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDB20CEB1E5C17FB00B33FB7 /* Build configuration list for PBXNativeTarget "YYImage-learn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB20CEC1E5C17FB00B33FB7 /* Debug */,
+				DDB20CED1E5C17FB00B33FB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDB20CCC1E5C17FB00B33FB7 /* Project object */;
+}
